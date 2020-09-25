@@ -1,0 +1,26 @@
+{
+    "name": "mtvs/aggregate-rating",
+    "description": "It provides the aggregate values of the models' ratings: the average and the count",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mohammad Ali Tavassoli",
+            "email": "mtvs.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AggregateRating\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AggregateRating\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.1",
+        "orchestra/testbench": "^5.2"
+    }
+}
