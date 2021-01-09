@@ -18,7 +18,9 @@
             "AggregateRating\\Tests\\": "tests/"
         }
     },
-    "require": {},
+    "require": {
+        "illuminate/database": "^8.0"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.1",
         "orchestra/testbench": "^5.2"
