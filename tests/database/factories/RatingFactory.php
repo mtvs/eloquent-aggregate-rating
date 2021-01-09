@@ -1,14 +1,14 @@
 <?php
 
 use AggregateRating\Tests\Models\Item;
-use AggregateRating\Tests\Models\Rating;
+use AggregateRating\Tests\Models\Review;
 use Faker\Generator;
 
-$factory->define(Rating::class, function (Generator $faker) {
+$factory->define(Review::class, function (Generator $faker) {
 	return [
 		'item_id' => function () {
 			return factory(Item::class)->create();
 		},
-		'value' => $faker->numberBetween(1, 5),
+		'rating' => $faker->numberBetween(1, 5),
 	];
 });

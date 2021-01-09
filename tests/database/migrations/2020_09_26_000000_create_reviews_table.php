@@ -8,11 +8,11 @@ class CreateReviewsTable extends Migration
 {
 	public function up()
 	{
-		Schema::create('ratings', function (Blueprint $table) {
+		Schema::create('reviews', function (Blueprint $table) {
 			$table->increments('id');
 			$table->timestamps();
 			$table->unsignedBigInteger('item_id');
-			$table->tinyInteger('value');
+			$table->tinyInteger('rating');
 		});
 	}
 
