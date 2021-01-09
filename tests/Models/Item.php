@@ -2,13 +2,16 @@
 
 namespace AggregateRating\Tests\Models;
 
-use AggregateRating\Tests\Models\Rating;
+use AggregateRating\HasAggregateRating;
+use AggregateRating\Tests\Models\Review;
 use Illuminate\Database\Eloquent\Model;
 
 class Item extends Model
 {
-	public function ratings()
+	use HasAggregateRating;
+
+	public function reviews()
 	{
-		return $this->hasMany(Rating::class);
+		return $this->hasMany(Review::class);
 	}
 }
