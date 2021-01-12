@@ -10,6 +10,11 @@ class Item extends Model
 {
 	use HasAggregateRating;
 
+	public function aggregateRatingReviews()
+	{
+		return $this->reviews();
+	}
+
 	public function reviews()
 	{
 		return $this->hasMany(Review::class);
