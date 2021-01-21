@@ -1,6 +1,6 @@
 {
     "name": "mtvs/aggregate-rating",
-    "description": "It provides the aggregate values of the models' ratings: the average and the count",
+    "description": "This automatically aggregates the average and the count of the ratings of a model",
     "type": "library",
     "authors": [
         {
