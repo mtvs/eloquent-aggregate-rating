@@ -1,12 +1,14 @@
 language: php
 
 php:
+ - 7.2
  - 7.3
  - 7.4 
  - 8.0 
 
 env:
-  - ILLUMINATE_VERSION=^8.0   
+  - ILLUMINATE_VERSION=^6.0   
+  - ILLUMINATE_VERSION=^7.0   
 
 before_install:
   - composer require "illuminate/database:${ILLUMINATE_VERSION}" --no-update
