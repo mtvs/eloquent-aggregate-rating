@@ -1,6 +1,6 @@
 # Eloquent Aggregate Rating
 
-Automatic ratings aggregation for a Laravel Eloquent model with reviews.
+Automatic rating aggregation for Laravel Eloquent models with reviews.
 
 This package aggregates the ratings' average and count of a model, which is 
 reviewed, and updates the model on the occurance of the specified events, e.g.:
