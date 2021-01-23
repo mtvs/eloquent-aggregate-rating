@@ -1,6 +1,6 @@
 {
     "name": "mtvs/eloquent-aggregate-rating",
-    "description": "Automatic ratings aggregation for a Laravel Eloquent model with reviews.",
+    "description": "Automatic rating aggregation for Laravel Eloquent models with reviews",
     "type": "library",
     "authors": [
         {
