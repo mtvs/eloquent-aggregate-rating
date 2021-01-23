@@ -2,6 +2,8 @@
 
 Automatic rating aggregation for Laravel Eloquent models with reviews.
 
+[![Build Status](https://travis-ci.com/mtvs/eloquent-aggregate-rating.svg?branch=master)](https://travis-ci.com/mtvs/eloquent-aggregate-rating)
+
 This package aggregates the ratings' average and count of a model, which is 
 reviewed, and updates the model on the occurance of the specified events, e.g.:
 after saving or deleting a review. So, it facilitates the access to these values
