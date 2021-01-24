@@ -8,7 +8,8 @@ This package aggregates the ratings' average and count of a model, which is
 reviewed, and updates the model on the occurance of the specified events, e.g.:
 after saving or deleting a review. So, it facilitates the access to these values
 and eliminates the problem of n+1 queries when retrieving a list of the models
-with their aggregate-rating values.
+with their aggregate-rating values and also the need for subqueries when sorting
+the models based on their rating.
 
 ## Setup
 
